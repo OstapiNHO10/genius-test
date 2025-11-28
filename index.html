@@ -5,35 +5,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Заголовок -->
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
         </a>
         <ul>
-          <li><a href="" target="_blank">Франшиза</a></li>
-          <li><a href="" target="_blank">Традиції</a></li>
-          <li><a href="" target="_blank">Формати</a></li>
-          <li><a href="" target="_blank">Контакти</a></li>
+          <li>
+            <a class="link" href="#traditions-section">Наші традиції</a>
+          </li>
+          <li><a class="link" href="#cookers-section">Шеф кухарі</a></li>
+          <li><a class="link" href="#format-section">Формати</a></li>
+          <li><a class="link" href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
-      <button type="submit">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
-      <section>
-        <ul>
+      <section id="traditions-section">
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
+          chefs-name
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -45,8 +48,10 @@
         </p>
         <img src="./images/image_1.jpg" alt="Головний пекар" />
       </section>
-      <section>
-        <h2>Наші найкращі шеф-кухарі</h2>
+      <section id="cookers-section">
+        <h2 class="section-title">
+          Наші найкращі <span class="chefs">шеф-кухарі</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -71,42 +76,42 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Формати</h2>
+      <section id="format-section">
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
-            <arcticle>
+            <article>
               <h3 lang="en">Walrus</h3>
               <p>
                 Площа: до 120 м2 Меню: розширене меню Штат: 2 продавці-касири, 2
                 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби Посадкові
                 місця: є
               </p>
-            </arcticle>
+            </article>
           </li>
           <li>
-            <arcticle>
+            <article>
               <h3 lang="en">Horseshoe</h3>
               <p>
                 Площа: до 25 м2 Меню: найпопулярніші позиції меню Штат: 2
                 продавці-касири, 2 пекарі, 1 помічник пекаря Посадкові місця:
                 відсутні
               </p>
-            </arcticle>
+            </article>
           </li>
           <li>
-            <arcticle>
+            <article>
               <h3 lang="en">Handlebar</h3>
               <p>
                 Площа: до 15 м2 Меню: найпопулярніші позиції меню Штат: 1
                 продавець, 1 пекар, 1 помічник пекаря Посадкові місця: відсутні
               </p>
-            </arcticle>
+            </article>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Приєднуйтеся до мережі пекарень</h2>
+      <section id="contact-section">
+        <h2 class="section-title">Приєднуйтеся до мережі пекарень</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1634470425242!2d30.48869301236383!3d50.45668098679637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2sSichovykh%20Striltsiv%20St%2C%2054%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2sat!4v1764286160334!5m2!1sen!2sat"
           width="603"
